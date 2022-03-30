@@ -50,7 +50,7 @@ def play_again():
     response = input("Mängid uuesti? (jah või ei): ")
     response = response.upper()
 
-    if response == "jah":
+    if response == "JAH":
         return True
     else:
         return False
